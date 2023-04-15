@@ -5,6 +5,9 @@
         "use": "@vercel/static-build",
         "config": {
           "outputDirectory": "dist"
+        },
+        "env": {
+          "NODE_VERSION": "14.x"
         }
       }
     ],
